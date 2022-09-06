@@ -1,0 +1,42 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    direction: rtl;
+    text-align: right;
+    background-color: #cccccc;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.headers {
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    float: right;
+    width: 100%;
+}
+
+.boxli {
+    padding: 1px;
+    margin: 0.5%;
+    flex-basis: 30%;
+    background-color: rgb(173, 204, 204);
+    float: left;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.footer {
+    width: 100%;
+    float: right;
+    background-color: lemonchiffon;
+    text-align: right;
+}
+
+@media (min-width: 630px) {
+    .container {
+        flex-direction: row;
+    }
+}
